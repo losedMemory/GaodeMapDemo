@@ -219,6 +219,7 @@
 ///清空所有记录
 - (void)emptyAllHistoryClick {
     [self.historyArray removeAllObjects];
+    [NSKeyedArchiver archiveRootObject:self.historyArray toFile:self.searchHistoryCache];
     [self.historyRecordTableView reloadData];
     self.emptyAllHistoryLabel.hidden = YES;
 }
