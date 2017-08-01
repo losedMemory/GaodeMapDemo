@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85A2D4851F2831F4006EE285 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A2D4841F2831F4006EE285 /* main.m */; };
+		85A2D4881F2831F4006EE285 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A2D4871F2831F4006EE285 /* AppDelegate.m */; };
+		85A2D48B1F2831F4006EE285 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A2D48A1F2831F4006EE285 /* ViewController.m */; };
+		85A2D48E1F2831F4006EE285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A2D48C1F2831F4006EE285 /* Main.storyboard */; };
+		85A2D4901F2831F4006EE285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A2D48F1F2831F4006EE285 /* Assets.xcassets */; };
+		85A2D4931F2831F4006EE285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A2D4911F2831F4006EE285 /* LaunchScreen.storyboard */; };
+		85A2D49B1F2836D7006EE285 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A2D49A1F2836D7006EE285 /* MAMapKit.framework */; };
+		85A2D49D1F283713006EE285 /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A2D49C1F283713006EE285 /* AMapFoundationKit.framework */; };
+		85A2D4A01F2837D5006EE285 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A2D49F1F2837D5006EE285 /* UIKit.framework */; };
+		85A2D4A21F28388D006EE285 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A2D4A11F28388D006EE285 /* Foundation.framework */; };
+		85A2D4A41F283899006EE285 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A2D4A31F283899006EE285 /* CoreGraphics.framework */; };
+		85A2D4A61F2838A4006EE285 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A2D4A51F2838A4006EE285 /* QuartzCore.framework */; };
+		85A2D4A81F2838B2006EE285 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A2D4A71F2838B2006EE285 /* CoreLocation.framework */; };
+		85A2D4AA1F283908006EE285 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A2D4A91F283908006EE285 /* CoreTelephony.framework */; };
+		85A2D4AC1F28394F006EE285 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A2D4AB1F28394F006EE285 /* SystemConfiguration.framework */; };
+		85A2D4AE1F283959006EE285 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A2D4AD1F283959006EE285 /* Security.framework */; };
+		85A2D4B01F283963006EE285 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A2D4AF1F283963006EE285 /* AdSupport.framework */; };
+		85A2D4B21F283996006EE285 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A2D4B11F283996006EE285 /* JavaScriptCore.framework */; };
+		85A2D4B41F2839A9006EE285 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A2D4B31F2839A9006EE285 /* libz.tbd */; };
+		85A2D4B61F2839B2006EE285 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A2D4B51F2839B2006EE285 /* libstdc++.6.0.9.tbd */; };
+		85A2D4B81F2839BF006EE285 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A2D4B71F2839BF006EE285 /* libc++.tbd */; };
+		85A2D4BA1F2842AA006EE285 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A2D4B91F2842A9006EE285 /* AMapSearchKit.framework */; };
+		85A2D4BF1F28961E006EE285 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A2D4BE1F28961E006EE285 /* LocationViewController.m */; };
+		85A2D4C21F289DCF006EE285 /* POISearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A2D4C11F289DCF006EE285 /* POISearchModel.m */; };
+		85A2D4C51F28C282006EE285 /* POISearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A2D4C41F28C282006EE285 /* POISearchTableViewCell.m */; };
+		85A2D4C81F28C44B006EE285 /* POISearchImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A2D4C71F28C44B006EE285 /* POISearchImages.m */; };
+		85A2D4CB1F297A4F006EE285 /* POISearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A2D4CA1F297A4F006EE285 /* POISearchResultViewController.m */; };
+		85A2D4CE1F29C510006EE285 /* POISearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A2D4CD1F29C510006EE285 /* POISearchBarViewController.m */; };
+		85BC5FA61F2B3745007FF383 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 85BC5FA51F2B3745007FF383 /* AMap.bundle */; };
+		90E4BC968B105FBBDB283D6D /* libPods-GaodeMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E138E58A3C6B1DF01D0507 /* libPods-GaodeMap.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36E138E58A3C6B1DF01D0507 /* libPods-GaodeMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GaodeMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1290A6E091F6875FE0B36D /* Pods-GaodeMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaodeMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-GaodeMap/Pods-GaodeMap.release.xcconfig"; sourceTree = "<group>"; };
+		7BFA1CF3A03DFF43EFE18C26 /* Pods-GaodeMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaodeMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GaodeMap/Pods-GaodeMap.debug.xcconfig"; sourceTree = "<group>"; };
+		85A2D4801F2831F4006EE285 /* GaodeMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaodeMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A2D4841F2831F4006EE285 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85A2D4861F2831F4006EE285 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85A2D4871F2831F4006EE285 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85A2D4891F2831F4006EE285 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85A2D48A1F2831F4006EE285 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85A2D48D1F2831F4006EE285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85A2D48F1F2831F4006EE285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85A2D4921F2831F4006EE285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85A2D4941F2831F4006EE285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85A2D49A1F2836D7006EE285 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		85A2D49C1F283713006EE285 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		85A2D49F1F2837D5006EE285 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		85A2D4A11F28388D006EE285 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		85A2D4A31F283899006EE285 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		85A2D4A51F2838A4006EE285 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		85A2D4A71F2838B2006EE285 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		85A2D4A91F283908006EE285 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		85A2D4AB1F28394F006EE285 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		85A2D4AD1F283959006EE285 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		85A2D4AF1F283963006EE285 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		85A2D4B11F283996006EE285 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		85A2D4B31F2839A9006EE285 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		85A2D4B51F2839B2006EE285 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		85A2D4B71F2839BF006EE285 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		85A2D4B91F2842A9006EE285 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		85A2D4BD1F28961E006EE285 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		85A2D4BE1F28961E006EE285 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		85A2D4C01F289DCF006EE285 /* POISearchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POISearchModel.h; sourceTree = "<group>"; };
+		85A2D4C11F289DCF006EE285 /* POISearchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POISearchModel.m; sourceTree = "<group>"; };
+		85A2D4C31F28C282006EE285 /* POISearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POISearchTableViewCell.h; sourceTree = "<group>"; };
+		85A2D4C41F28C282006EE285 /* POISearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POISearchTableViewCell.m; sourceTree = "<group>"; };
+		85A2D4C61F28C44B006EE285 /* POISearchImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POISearchImages.h; sourceTree = "<group>"; };
+		85A2D4C71F28C44B006EE285 /* POISearchImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POISearchImages.m; sourceTree = "<group>"; };
+		85A2D4C91F297A4F006EE285 /* POISearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POISearchResultViewController.h; sourceTree = "<group>"; };
+		85A2D4CA1F297A4F006EE285 /* POISearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POISearchResultViewController.m; sourceTree = "<group>"; };
+		85A2D4CC1F29C510006EE285 /* POISearchBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POISearchBarViewController.h; sourceTree = "<group>"; };
+		85A2D4CD1F29C510006EE285 /* POISearchBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POISearchBarViewController.m; sourceTree = "<group>"; };
+		85BC5FA51F2B3745007FF383 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85A2D47D1F2831F4006EE285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A2D4BA1F2842AA006EE285 /* AMapSearchKit.framework in Frameworks */,
+				85A2D4B81F2839BF006EE285 /* libc++.tbd in Frameworks */,
+				85A2D4B61F2839B2006EE285 /* libstdc++.6.0.9.tbd in Frameworks */,
+				85A2D4B41F2839A9006EE285 /* libz.tbd in Frameworks */,
+				85A2D4B21F283996006EE285 /* JavaScriptCore.framework in Frameworks */,
+				85A2D4B01F283963006EE285 /* AdSupport.framework in Frameworks */,
+				85A2D4AE1F283959006EE285 /* Security.framework in Frameworks */,
+				85A2D4AC1F28394F006EE285 /* SystemConfiguration.framework in Frameworks */,
+				85A2D4AA1F283908006EE285 /* CoreTelephony.framework in Frameworks */,
+				85A2D4A81F2838B2006EE285 /* CoreLocation.framework in Frameworks */,
+				85A2D4A61F2838A4006EE285 /* QuartzCore.framework in Frameworks */,
+				85A2D4A41F283899006EE285 /* CoreGraphics.framework in Frameworks */,
+				85A2D4A21F28388D006EE285 /* Foundation.framework in Frameworks */,
+				85A2D4A01F2837D5006EE285 /* UIKit.framework in Frameworks */,
+				85A2D49B1F2836D7006EE285 /* MAMapKit.framework in Frameworks */,
+				85A2D49D1F283713006EE285 /* AMapFoundationKit.framework in Frameworks */,
+				90E4BC968B105FBBDB283D6D /* libPods-GaodeMap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85A2D4771F2831F4006EE285 = {
+			isa = PBXGroup;
+			children = (
+				85A2D4821F2831F4006EE285 /* GaodeMap */,
+				85A2D4811F2831F4006EE285 /* Products */,
+				85A2D49E1F2837D4006EE285 /* Frameworks */,
+				B8F99218928B65849D0F3B60 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		85A2D4811F2831F4006EE285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85A2D4801F2831F4006EE285 /* GaodeMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85A2D4821F2831F4006EE285 /* GaodeMap */ = {
+			isa = PBXGroup;
+			children = (
+				85BC5FA51F2B3745007FF383 /* AMap.bundle */,
+				85A2D4B91F2842A9006EE285 /* AMapSearchKit.framework */,
+				85A2D49C1F283713006EE285 /* AMapFoundationKit.framework */,
+				85A2D49A1F2836D7006EE285 /* MAMapKit.framework */,
+				85A2D4861F2831F4006EE285 /* AppDelegate.h */,
+				85A2D4871F2831F4006EE285 /* AppDelegate.m */,
+				85A2D4891F2831F4006EE285 /* ViewController.h */,
+				85A2D48A1F2831F4006EE285 /* ViewController.m */,
+				85A2D4BC1F2895E3006EE285 /* Location */,
+				85A2D4BB1F2895DD006EE285 /* POISearch */,
+				85A2D48C1F2831F4006EE285 /* Main.storyboard */,
+				85A2D48F1F2831F4006EE285 /* Assets.xcassets */,
+				85A2D4911F2831F4006EE285 /* LaunchScreen.storyboard */,
+				85A2D4941F2831F4006EE285 /* Info.plist */,
+				85A2D4831F2831F4006EE285 /* Supporting Files */,
+			);
+			path = GaodeMap;
+			sourceTree = "<group>";
+		};
+		85A2D4831F2831F4006EE285 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85A2D4841F2831F4006EE285 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85A2D49E1F2837D4006EE285 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85A2D4B71F2839BF006EE285 /* libc++.tbd */,
+				85A2D4B51F2839B2006EE285 /* libstdc++.6.0.9.tbd */,
+				85A2D4B31F2839A9006EE285 /* libz.tbd */,
+				85A2D4B11F283996006EE285 /* JavaScriptCore.framework */,
+				85A2D4AF1F283963006EE285 /* AdSupport.framework */,
+				85A2D4AD1F283959006EE285 /* Security.framework */,
+				85A2D4AB1F28394F006EE285 /* SystemConfiguration.framework */,
+				85A2D4A91F283908006EE285 /* CoreTelephony.framework */,
+				85A2D4A71F2838B2006EE285 /* CoreLocation.framework */,
+				85A2D4A51F2838A4006EE285 /* QuartzCore.framework */,
+				85A2D4A31F283899006EE285 /* CoreGraphics.framework */,
+				85A2D4A11F28388D006EE285 /* Foundation.framework */,
+				85A2D49F1F2837D5006EE285 /* UIKit.framework */,
+				36E138E58A3C6B1DF01D0507 /* libPods-GaodeMap.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85A2D4BB1F2895DD006EE285 /* POISearch */ = {
+			isa = PBXGroup;
+			children = (
+				85A2D4C01F289DCF006EE285 /* POISearchModel.h */,
+				85A2D4C11F289DCF006EE285 /* POISearchModel.m */,
+				85A2D4C31F28C282006EE285 /* POISearchTableViewCell.h */,
+				85A2D4C41F28C282006EE285 /* POISearchTableViewCell.m */,
+				85A2D4C61F28C44B006EE285 /* POISearchImages.h */,
+				85A2D4C71F28C44B006EE285 /* POISearchImages.m */,
+				85A2D4C91F297A4F006EE285 /* POISearchResultViewController.h */,
+				85A2D4CA1F297A4F006EE285 /* POISearchResultViewController.m */,
+				85A2D4CC1F29C510006EE285 /* POISearchBarViewController.h */,
+				85A2D4CD1F29C510006EE285 /* POISearchBarViewController.m */,
+			);
+			name = POISearch;
+			sourceTree = "<group>";
+		};
+		85A2D4BC1F2895E3006EE285 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				85A2D4BD1F28961E006EE285 /* LocationViewController.h */,
+				85A2D4BE1F28961E006EE285 /* LocationViewController.m */,
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
+		B8F99218928B65849D0F3B60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BFA1CF3A03DFF43EFE18C26 /* Pods-GaodeMap.debug.xcconfig */,
+				4A1290A6E091F6875FE0B36D /* Pods-GaodeMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85A2D47F1F2831F4006EE285 /* GaodeMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85A2D4971F2831F4006EE285 /* Build configuration list for PBXNativeTarget "GaodeMap" */;
+			buildPhases = (
+				A3F8E386B0FA0EF8F31E807B /* [CP] Check Pods Manifest.lock */,
+				85A2D47C1F2831F4006EE285 /* Sources */,
+				85A2D47D1F2831F4006EE285 /* Frameworks */,
+				85A2D47E1F2831F4006EE285 /* Resources */,
+				3A95F9CE4251268355D476F0 /* [CP] Embed Pods Frameworks */,
+				B7990F57CEFB9D266BB6E3AD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GaodeMap;
+			productName = GaodeMap;
+			productReference = 85A2D4801F2831F4006EE285 /* GaodeMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85A2D4781F2831F4006EE285 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "能环宝";
+				TargetAttributes = {
+					85A2D47F1F2831F4006EE285 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XVUKJCP469;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 85A2D47B1F2831F4006EE285 /* Build configuration list for PBXProject "GaodeMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85A2D4771F2831F4006EE285;
+			productRefGroup = 85A2D4811F2831F4006EE285 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85A2D47F1F2831F4006EE285 /* GaodeMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85A2D47E1F2831F4006EE285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A2D4931F2831F4006EE285 /* LaunchScreen.storyboard in Resources */,
+				85A2D4901F2831F4006EE285 /* Assets.xcassets in Resources */,
+				85BC5FA61F2B3745007FF383 /* AMap.bundle in Resources */,
+				85A2D48E1F2831F4006EE285 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A95F9CE4251268355D476F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaodeMap/Pods-GaodeMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F8E386B0FA0EF8F31E807B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7990F57CEFB9D266BB6E3AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaodeMap/Pods-GaodeMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85A2D47C1F2831F4006EE285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A2D4C81F28C44B006EE285 /* POISearchImages.m in Sources */,
+				85A2D4C21F289DCF006EE285 /* POISearchModel.m in Sources */,
+				85A2D48B1F2831F4006EE285 /* ViewController.m in Sources */,
+				85A2D4C51F28C282006EE285 /* POISearchTableViewCell.m in Sources */,
+				85A2D4881F2831F4006EE285 /* AppDelegate.m in Sources */,
+				85A2D4851F2831F4006EE285 /* main.m in Sources */,
+				85A2D4CE1F29C510006EE285 /* POISearchBarViewController.m in Sources */,
+				85A2D4CB1F297A4F006EE285 /* POISearchResultViewController.m in Sources */,
+				85A2D4BF1F28961E006EE285 /* LocationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85A2D48C1F2831F4006EE285 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85A2D48D1F2831F4006EE285 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85A2D4911F2831F4006EE285 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85A2D4921F2831F4006EE285 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85A2D4951F2831F4006EE285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85A2D4961F2831F4006EE285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85A2D4981F2831F4006EE285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BFA1CF3A03DFF43EFE18C26 /* Pods-GaodeMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = XVUKJCP469;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GaodeMap",
+				);
+				INFOPLIST_FILE = GaodeMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.nenghuanbao.www.GaodeMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85A2D4991F2831F4006EE285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A1290A6E091F6875FE0B36D /* Pods-GaodeMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = XVUKJCP469;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GaodeMap",
+				);
+				INFOPLIST_FILE = GaodeMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.nenghuanbao.www.GaodeMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85A2D47B1F2831F4006EE285 /* Build configuration list for PBXProject "GaodeMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A2D4951F2831F4006EE285 /* Debug */,
+				85A2D4961F2831F4006EE285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85A2D4971F2831F4006EE285 /* Build configuration list for PBXNativeTarget "GaodeMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A2D4981F2831F4006EE285 /* Debug */,
+				85A2D4991F2831F4006EE285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85A2D4781F2831F4006EE285 /* Project object */;
+}
